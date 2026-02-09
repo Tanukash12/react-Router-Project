@@ -1,16 +1,103 @@
-# React + Vite
+# ⚛️ React Router Project (Advanced Routing + API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React project demonstrating modern routing using **React Router DOM**, dynamic routes, loaders, and API integration.
+This project focuses on building structured layouts, handling dynamic URLs, and fetching live data from external APIs.
 
-Currently, two official plugins are available:
+---
+## 📸 Project Preview
+![App Screenshot](./github.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🧩 1. Layout with Outlet (Automatic Rendering)
 
-## Expanding the ESLint configuration
+* Implemented a shared layout using `Outlet`
+* Provides automatic rendering of child routes
+* Layout defined at root path `/`
+* Managed via `react-router-dom` in `main.jsx`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🛣️ 2. Router Setup using RouterProvider
+
+Router created using `createBrowserRouter` in two different ways:
+
+#### Method 1: Array of route objects
+
+* Direct route configuration using array structure
+
+#### Method 2: createRoutesFromElements
+
+* JSX-based routing
+* More readable and structured
+* Nested routes support
+
+---
+
+### 🔗 3. Dynamic Routing using useParams()
+
+* Implemented dynamic routes using `:id`
+* Accessed dynamic values via `useParams()` hook
+* Example:
+
+```
+/user/:id
+```
+
+* Allows rendering data based on URL parameters
+
+---
+
+### 🌐 4. API Integration (GitHub Followers)
+
+* Fetched live GitHub user data
+* Used `async/await` with `fetch`
+* Implemented loader function in React Router
+* Data displayed using `useLoaderData()` hook
+* Shows followers and profile image dynamically
+
+---
+
+## 🛠️ Tech Stack
+
+* React JS (Vite)
+* React Router DOM
+* Tailwind CSS
+* JavaScript (ES6+)
+* GitHub REST API
+
+---
+
+## 📂 Project Setup
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧠 Learning Outcomes
+
+* Nested routing in React
+* Layout handling with Outlet
+* Dynamic routing using params
+* API fetching using loader functions
+* Modern React Router architecture
+* Clean component-based structure
+
+---
+
+## 👩‍💻 Author
+
+**Tanushka Kashyap**
+Frontend Developer | React Learner 🚀
