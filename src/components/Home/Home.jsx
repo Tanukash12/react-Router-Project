@@ -33,7 +33,7 @@ export default function Home() {
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
                     <img 
-                        src="https://img.freepik.com/free-vector/man-video-call-while-having-self-quarantine-vector_53876-140870.jpg?semt=ais_hybrid&w=740&q=80"
+                        src="https://static.vecteezy.com/system/resources/thumbnails/013/768/280/small/woman-programmer-working-on-a-new-project-vector.jpg"
                         alt="coding"
                     />
 
@@ -42,7 +42,7 @@ export default function Home() {
 
             <div className="grid  place-items-center sm:mt-20">
                 <img 
-                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+                    src="https://static.vecteezy.com/system/resources/thumbnails/034/752/251/small/it-professional-illustration-concept-on-a-white-background-vector.jpg"
                     alt="coding"
                 />
             </div>
