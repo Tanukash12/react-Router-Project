@@ -33,7 +33,7 @@ export default function Home() {
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
                     <img 
-                        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                        src="https://img.freepik.com/free-vector/man-video-call-while-having-self-quarantine-vector_53876-140870.jpg?semt=ais_hybrid&w=740&q=80"
                         alt="coding"
                     />
 
