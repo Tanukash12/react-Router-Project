@@ -100,4 +100,4 @@ npm run dev
 ## 👩‍💻 Author
 
 **Tanushka Kashyap**
-Frontend Developer | React Learner 🚀
+
